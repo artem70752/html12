@@ -120,7 +120,7 @@ body {
 .radio_input:checked + .radio__fake{
     background-color: #FFE074;
 }
-.radio_input:checked + .radio__title{
+.radio_input:checked ~ .radio__title{
     font-weight: 700;
 }
 .radio_input:checked + .radio__fake::before{
@@ -162,8 +162,8 @@ body {
 .checkbox__options:checked + .checkbox__fake {
     background-color:  #FFE074;
 }
-.checkbox__options:checked + .checkbox__title{
-    font-size: 700;
+.checkbox__options:checked ~ .checkbox__title{
+    font-weight: 700;
 }
 .checkbox__options:checked + .checkbox__fake::before{
     position: absolute;
